@@ -31,10 +31,12 @@ Tecnologias utilizadas
 Cypress
 REST API
 JSON
+
 Como executar
 cd API
 npm install
 npx cypress run
+
 ⚡ Testes de Performance
 
 Os testes de performance foram desenvolvidos com Apache JMeter, simulando carga no fluxo de login da plataforma.
@@ -52,6 +54,7 @@ Apache JMeter
 CSV Data Set Config
 Recording Controller
 Summary Report
+
 🔄 Integração Contínua
 
 Foi configurado um pipeline com Jenkins utilizando Jenkinsfile versionado no GitHub para execução automatizada dos testes de UI e API.
